@@ -14,7 +14,7 @@ public interface Stack {
 	 * 
 	 * @param item
 	 */
-	void push(Object item);
+	public void push(Object item);
 
 	/**
 	 * DELETE operation, which does not take an element argument, is often
@@ -22,6 +22,6 @@ public interface Stack {
 	 * 
 	 * @return
 	 */
-	Object pop();
+	public Object pop();
 
 }
