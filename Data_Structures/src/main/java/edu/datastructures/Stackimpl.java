@@ -1,41 +1,38 @@
 package edu.datastructures;
 
-import java.io.*;
 
-interface stack {
-	void push(int item);
-
-	int pop();
-}
-
-class Stackimpl {
-	private int stck[];
+public class Stackimpl {
+	/**
+	 * Underlying array to hold stack items.
+	 */
+	private Object stack[];
 	private int top;
 
 	Stackimpl(int size) {
-		stck = new int[size];
+		stack = new Object[size];
 		top = -1;
 	}
 
-	void push(int item) {
-		if (top == stck.length - 1) {
+	public void push(Object item) {
+		if (top == stack.length - 1) {
 			System.out.println("Stack is full! Insertion not possible");
 		} else {
-			stck[++top] = item;
+			stack[++top] = item;
 		}
 	}
 
-	int pop() {
+	Object pop() {
 		if (top == -1) {
-			System.out.println("stack is empty! Popping not possible!");
+			System.out.println("Stack is empty! Popping not possible!");
 			return 0;
 		} else {
-			return stck[top--];
+			return stack[top--];
 		}
 
 	}
 }
 
+/*
 public class StackDemo {
 	public static void main(String args[]) throws IOException {
 		int a[];
@@ -56,3 +53,4 @@ public class StackDemo {
 			System.out.println("" + obj1.pop());
 	}
 }
+*/
