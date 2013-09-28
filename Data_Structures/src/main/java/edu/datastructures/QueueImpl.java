@@ -8,10 +8,10 @@ package edu.datastructures;
  */
 public class QueueImpl implements Queue {
 	private Object queue[];
-	private int front, rear;
+	private int front, rear, N;
 
 	/*
-	 * Constructor to creat and initialize objects also define intial front and
+	 * Constructor to create and initialize objects also define intial front and
 	 * rear variables
 	 */
 
@@ -24,70 +24,46 @@ public class QueueImpl implements Queue {
 	 * Method to add items onto the queue
 	 */
 	public void enqueue(Object item) {
-		if (isFull())
-			System.out.println("*******Queue OVerflow******");
-		else {
-			rear++;
+		if (size() == N - 1)
+			throw new QueueFullException();
+		else
 			queue[rear] = item;
-			if (front == -1)
-				front = 0;
-			System.out.println("*****Element Added******");
-		}
+		rear = ((rear + 1) % N);
+
 	}
 
 	/*
-	 * Method to remove elements from queue.
+	 * Method to remove object from the front of the queue; an error occurs if
+	 * queue is empty, we raise an exception then QueueEmptyException
 	 */
 	public Object dequeue() {
-		Object x;
-		if (isEmpty()) // check whether queue contains any element to be deleted
-						// or not
-			x = -999; 
-		else {
-			x = queue[front];
-			queue[front] = 0;
-			if (front == rear) // if last element is removed queue again becomes
-								// empty
-				front = rear = -1;
-			else
-				front++; // because element is removed from queue from front end
-		}
-		return x;
+		Object elem;
+		if (isEmpty())
+			throw new QueueEmptyException();
+		else
+			elem = queue[front];
+		queue[front] = 0;
+		front = ((front + 1) % N);
+		return elem;
 	}
 
 	/*
-	 * Method to check if queue is empty
+	 * this is a support method defined to determine the size of queue and use
+	 * it in our algorithm
+	 */
+	public int size() {
+		return ((N - front + rear) % N);
+
+	}
+
+	/*
+	 * This is another support method ! It checks the queue if its empty or not!
+	 * Can be used in complex enqueuing and dequeueing operations
 	 */
 	public boolean isEmpty() {
-		if (front == -1)
+		if (front == rear)
 			return true;
 		else
 			return false;
-
-	}
-
-	/*
-	 * Method to check if queue is full.
-	 */
-	public boolean isFull() {
-		if (front == -1)// to check for empty queue
-			return true;
-		else
-			return false;
-	}
-
-	/*
-	 * Method to show elements of queue. if queue is not empty, then a loop is
-	 * run from’ front’ to ‘rear’ to show all the elements of queue from
-	 * beginning till end.
-	 */
-	public void show() {
-		if (isEmpty()) // if empty there is nothing to display in queue
-			System.out.print("****Empty*****");
-		else {
-			for (int i = front; i <= rear; i++)
-				System.out.print(queue[i] + "  ");
-		}
-		System.out.println();
 	}
 }
