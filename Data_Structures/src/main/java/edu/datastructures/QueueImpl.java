@@ -7,8 +7,10 @@ package edu.datastructures;
  * @author: Santosh Ganti
  */
 public class QueueImpl implements Queue {
-	private Object queue[];
-	private int front, rear, N;
+	private Object queue[];// Array "queue" holds the elements of the queue
+	private int front;// the front element of the queue
+	private int rear;// The rear element of the queue
+	private int N;// Maximum capacity of the queue
 
 	/*
 	 * Constructor to create and initialize objects also define intial front and
@@ -17,7 +19,7 @@ public class QueueImpl implements Queue {
 
 	public QueueImpl(int size) {
 		queue = new Object[size];
-		rear = front = -1;
+		rear = front = -1; 
 	}
 
 	/*
