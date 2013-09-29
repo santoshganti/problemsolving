@@ -8,19 +8,7 @@ public class TestQueue {
 	public void testSimpleScenerio(){
 		//Create a queue to hold 10 elements
 		Queue queue = new QueueImpl(10);
-		// Push elements into stack
-		/*
-		 * 9
-		 * 8
-		 * 7
-		 * 6
-		 * 5
-		 * 4
-		 * 3
-		 * 2
-		 * 1
-		 * 0
-		 */
+		
 		for (int i = 0; i < 10; i++) {
 			queue.enqueue(new Integer(i));
 		}
