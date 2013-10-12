@@ -12,7 +12,7 @@ public interface LinkedList {
 	 * procedure "Splices" x onto the front of the linked list.
 	 * 
 	 */
-	public void insert(Object key);
+	public void insert(Object key) throws LinkedListFullException;
 
 	/**
 	 * Given an element "x" whose key attribute has been set the LIST DELETE
@@ -20,7 +20,7 @@ public interface LinkedList {
 	 * 
 	 * 
 	 */
-	public Link delete(Object key);
+	public boolean delete(Object key);
 
 	/**
 	 * This is the size of the list.
