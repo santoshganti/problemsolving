@@ -1,5 +1,5 @@
 package problem.solving;
-
+/*Checking if git works from windows */ 
 public class Factorial {
 	public double calculateFactorial(int n){
 		//n= number
