@@ -31,8 +31,7 @@ public class Insertionsort {
 				i = i - 1;
 			}
 			inputarray[i + 1] = key;
-
 		}
-		printSequence(inputarray);
+		printSequence(inputarray);//prints the final sequence
 	}
 }
