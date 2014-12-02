@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publish-info>
+  <server id="jboss-as-7.1.1.Final" path="publish1.dat"/>
+  <server id="JBoss 7.1 Runtime Server1389118290045" path="publish0.dat"/>
+</publish-info>

@@ -1,0 +1,43 @@
+@CHARSET "US-ASCII";
+
+#mommy {
+	border: 2px solid blue;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	width: 700px;
+	height: 300px;
+	-webkit-box-align: center;
+}
+
+#kid1 {
+	border: 2px solid red;
+	background: green;
+	paddding: 20px;
+	margin: 10px;
+	-webkit-box-flex: 1;
+}
+
+#kid2 {
+	border: 2px solid red;
+	background: yellow;
+	paddding: 20px;
+	margin: 10px;
+	width: 60px;
+	-webkit-box-flex: 1;
+}
+
+#kid3 {
+	border: 2px solid red;
+	background: red;
+	paddding: 20px;
+	margin: 10px;
+	-webkit-box-flex: 1;
+}
+
+#kid4 {
+	border: 2px solid red;
+	background: orange;
+	paddding: 20px;
+	margin: 10px;
+	-webkit-box-flex: 1;
+}

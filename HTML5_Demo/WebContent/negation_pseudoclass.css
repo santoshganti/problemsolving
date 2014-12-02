@@ -1,0 +1,10 @@
+@CHARSET "US-ASCII";
+
+* {
+	color: blue;
+}
+
+/* everything that is not class bucky gets coloured */
+:not(.bucky ){
+	color: red;
+}

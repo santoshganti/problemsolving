@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/santoshganti/Downloads/Struts2_Hello_world"/>
+			<item value="/Volumes/Santosh Ganti/StrutsExample"/>
+			<item value="/Users/santoshganti/ode/workspaces/giza"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

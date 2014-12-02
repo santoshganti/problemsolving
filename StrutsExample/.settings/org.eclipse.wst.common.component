@@ -2,8 +2,7 @@
     <wb-module deploy-name="StrutsExample">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
         <property name="context-root" value="StrutsExample"/>
-        <property name="java-output-path" value="/StrutsExample/build/classes"/>
+        <property name="java-output-path" value="/StrutsExample/StrutsExample/build/classes"/>
     </wb-module>
 </project-modules>

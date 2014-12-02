@@ -11,7 +11,7 @@ public class StackImpl implements Stack{
 	 */
 	private int top;
 
-	StackImpl(int size) {
+	public StackImpl(int size) {
 		stack = new Object[size];
 		top = -1;
 	}

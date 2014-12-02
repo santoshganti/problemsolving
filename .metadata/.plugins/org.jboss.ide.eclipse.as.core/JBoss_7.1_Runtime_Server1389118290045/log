@@ -1,0 +1,86 @@
+!SESSION 2014-01-07 23:33:19.764 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/santoshganti/ode/git/repos/giza -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 23:45:13.217
+!MESSAGE Module StrutsExample published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 23:45:14.382
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 23:45:41.609
+!MESSAGE Server Startup Succeeded
+
+!ENTRY unknown 0 0 2014-01-07 23:46:42.887
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 23:49:50.219
+!MESSAGE Module StrutsExample published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 23:49:50.578
+!MESSAGE Module StrutsExample on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 23:50:59.015
+!MESSAGE 1 files modified in module StrutsExample
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-08 00:57:39.310
+!MESSAGE 11 files modified in module StrutsExample
+!SESSION 2014-01-19 15:53:31.016 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+
+!ENTRY unknown 0 0 2014-01-19 16:14:32.223
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-19 16:14:35.251
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-19 16:15:03.451
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:23:12.705
+!MESSAGE Module StrutsLoginModule published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 16:23:13.238
+!MESSAGE Module StrutsLoginModule on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 16:23:33.946
+!MESSAGE Module StrutsLoginModule on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:25:12.918
+!MESSAGE 2 files modified in module StrutsLoginModule
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:26:02.187
+!MESSAGE 2 files modified in module StrutsLoginModule
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-01-19 16:28:17.583
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-19 16:28:18.716
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-19 16:28:48.878
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-19 16:28:59.753
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 16:30:03.719
+!MESSAGE Module StrutsLoginModule on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 16:30:24.595
+!MESSAGE Module StrutsLoginModule on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-01-19 16:35:36.163
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-19 16:35:36.776
+!MESSAGE Server processes have been terminated.

@@ -1,0 +1,101 @@
+!SESSION 2014-01-08 03:11:36.324 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-08 03:14:17.637
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-08 03:15:00.174
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-08 03:15:54.484
+!MESSAGE Module StrutsExample published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-08 03:21:39.549
+!MESSAGE 11 files modified in module StrutsExample
+
+!ENTRY unknown 0 0 2014-01-08 03:23:05.867
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-08 03:33:15.793
+!MESSAGE Module StrutsExample published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-08 03:33:16.369
+!MESSAGE Module StrutsExample on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+!SESSION 2014-01-19 15:53:31.016 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/santoshganti/.eclipse_keyring -showlocation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:36:01.516
+!MESSAGE Module StrutsExample published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-19 16:36:02.485
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-19 16:36:13.391
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:37:28.603
+!MESSAGE Module StrutsLoginModule published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 16:37:28.991
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 16:37:49.639
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:39:36.840
+!MESSAGE 132 files modified in module StrutsLoginModule
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 16:39:37.083
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 16:39:57.318
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:47:21.841
+!MESSAGE 132 files modified in module StrutsLoginModule
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 16:47:27.010
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 16:47:43.030
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:51:51.380
+!MESSAGE 5 files modified in module StrutsLoginModule
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 16:51:56.562
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 16:52:12.581
+!MESSAGE Module StrutsLoginModule on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2014-01-19 16:54:06.002
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 16:58:49.123
+!MESSAGE Module Struts2_Hello_World published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 16:58:54.386
+!MESSAGE Module Struts2_Hello_World on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 16:59:10.403
+!MESSAGE Module Struts2_Hello_World on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-19 17:15:02.089
+!MESSAGE 2 files modified in module Struts2_Hello_World
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-19 17:15:07.244
+!MESSAGE Module Struts2_Hello_World on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-19 17:15:23.263
+!MESSAGE Module Struts2_Hello_World on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.

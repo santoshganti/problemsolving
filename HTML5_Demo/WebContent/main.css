@@ -1,0 +1,31 @@
+@CHARSET "US-ASCII";
+/* Old school css */
+#tuna {
+	color: red
+}
+
+.tuna {
+	color: blue
+}
+
+p.tuna {
+	color: orange
+}
+/* css 3 name attribute */
+p[name="pappu"] {
+	color: yellow
+}
+/*regular expressions in css */
+/*1. "^" symboled regular expression i.e anything starting with bacon the style gets applied */
+p[name^="bacon"] {
+	color: green
+}
+/* $ sign indicates that anything that ends with bacon gets affected */
+p[name$="bacon"] {
+	color: brown
+}
+/* the asterik symbol (*) if present in the regular expression, doesnt mater where the word 
+bacon is it still gets affected i.e it doesnt care if its at the end or beginning*/
+p[name*="bacon"] {
+	color: grey
+}

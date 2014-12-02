@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="deleteOnExit"/>
+	<item value="/Users/santoshganti/ode/apps" key="defaultDialogPath"/>
+	<item value="/var/folders/f9/0ztflsfx6w189hmcm2d51_jm0000gn/T/" key="defaultDestinationPath"/>
+	<section name="downloadRuntimeSection">
+		<item value="true" key="org.jboss.tools.runtime.core.as.711"/>
+	</section>
+</section>

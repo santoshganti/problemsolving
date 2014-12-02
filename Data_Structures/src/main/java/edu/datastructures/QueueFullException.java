@@ -6,9 +6,11 @@ package edu.datastructures;
  * @author santosh ganti
  * 
  */
-public class QueueFullException extends RuntimeException {
+public class QueueFullException extends Exception {
+
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -5693944046961478577L;
+	private static final long serialVersionUID = 21212;
+	
 }

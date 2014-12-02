@@ -7,7 +7,7 @@ package edu.datastructures;
  * @author santosh ganti
  * 
  */
-public class QueueEmptyException extends RuntimeException {
+public class QueueEmptyException extends Exception {
 
 	/**
 	 * 

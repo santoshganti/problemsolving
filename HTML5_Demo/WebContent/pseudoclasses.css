@@ -1,0 +1,17 @@
+@CHARSET "US-ASCII";
+/* 3rd child get the style. Number describes the child number */
+p:nth-child(3) {
+	color: green
+}
+
+/* now instead of number we can give "even" or "odd". 
+If attribute is even all the even child will get style and
+if you put odd all the odd children will get the style applied */
+p:nth-child(odd) {
+	color: green
+}
+
+p:nth-child(even) {
+	color: red
+}
+/* you can all use formulas like 4n+1 etc */"

@@ -1,0 +1,27 @@
+@CHARSET "US-ASCII";
+
+body {
+	text-align: center;
+}
+/* -webkit-transform:rotate(45deg);
+-webkit-transition: -webkit-transform 2s;(will give nice animation)*/
+#box {
+	display: block;
+	margin: 150px auto;
+	color: #ffffff;
+	-webkit-border-radius: 10px;
+	opacity: 0.6;
+	background: red;
+	width: 120px;
+	height: 75px;
+	-webkit-transition: -webkit-transform 2s, opacity 2s, background 2s,
+		width 2s, height 2s;
+}
+
+#box:hover {
+	-webkit-transform: rotate(360deg);
+	opacity: 1;
+	background: #1ec7e6;
+	width: 450px;
+	height: 100px;
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+/Users/santoshganti/ode/git/repos/giza/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3684846189.index
+/StrutsExample/src/main/java
+/Users/santoshganti/ode/git/repos/giza/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1638291472.index
+/Struts2_Hello_World/src
+/Users/santoshganti/ode/git/repos/giza/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/175839579.index
+/StrutsLoginModule/src

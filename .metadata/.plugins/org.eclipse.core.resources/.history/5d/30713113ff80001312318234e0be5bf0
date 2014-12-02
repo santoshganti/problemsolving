@@ -1,0 +1,6 @@
+@CHARSET "US-ASCII";
+
+h1 {
+	color: orange;
+	text-align: center;
+}

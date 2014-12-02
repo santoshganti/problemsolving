@@ -1,0 +1,14 @@
+@CHARSET "US-ASCII";
+/*everything that has div as parent gets affected*/
+div>p {
+	color: red;
+}
+/* Every para that follows class name bucky is effected by this and since out first para 
+is followed by div it doesnt get affected. */
+p.bucky+p {
+	color: blue;
+}
+
+p.bucky ~p{
+	color: red;
+}

@@ -41,7 +41,6 @@ public class LinkedListImpl implements LinkedList {
 		size++;
 	}
 
-	@Override
 	public boolean delete(Object key) {
 		Link linkToDelete = search(key);
 		if (linkToDelete == null) {
@@ -67,13 +66,11 @@ public class LinkedListImpl implements LinkedList {
 
 	}
 
-	@Override
 	public int size() {
 
 		return size;
 	}
 
-	@Override
 	public Link search(Object key) {
 		// Checking if list is empty
 		if (currenthead == null) {
@@ -96,17 +93,14 @@ public class LinkedListImpl implements LinkedList {
 		return null;
 	}
 
-	@Override
 	public boolean isEmpty() {
 		return size == 0;
 	}
 
-	@Override
 	public Link getHead() {
 		return currenthead;
 	}
 
-	@Override
 	public Link getTail() {
 		return tail;
 	}

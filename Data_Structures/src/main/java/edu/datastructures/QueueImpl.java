@@ -18,14 +18,15 @@ public class QueueImpl implements Queue {
 	 */
 
 	public QueueImpl(int size) {
-		queue = new Object[size];
-		rear = front = -1; 
+		N = size+1;
+		queue = new Object[N];
+		rear = front = 0; 
 	}
 
 	/*
 	 * Method to add items onto the queue
 	 */
-	public void enqueue(Object item) {
+	public void enqueue(Object item) throws QueueFullException {
 		if (size() == N - 1)
 			throw new QueueFullException();
 		else
@@ -38,7 +39,7 @@ public class QueueImpl implements Queue {
 	 * Method to remove object from the front of the queue; an error occurs if
 	 * queue is empty, we raise an exception then QueueEmptyException
 	 */
-	public Object dequeue() {
+	public Object dequeue() throws QueueEmptyException {
 		Object elem;
 		if (isEmpty())
 			throw new QueueEmptyException();
@@ -54,7 +55,7 @@ public class QueueImpl implements Queue {
 	 * it in our algorithm
 	 */
 	public int size() {
-		return ((N - front + rear) % N);
+		return (N - front + rear) % N;
 
 	}
 
