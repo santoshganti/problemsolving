@@ -1,9 +1,11 @@
 package problem.solving;
 
 import org.junit.Test;
-import static junit.framework.Assert.*;
+
+import static org.junit.Assert.*;
 
 public class InterestTest {
+	@SuppressWarnings("deprecation")
 	@Test
 	public void testSimpleInterest() {
 		Interest value = createInterest();
