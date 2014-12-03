@@ -1,10 +1,12 @@
 package problem.solving;
 
 import org.junit.Test;
+
 import static junit.framework.Assert.*;
 
 
 public class FactorialTest {
+	@SuppressWarnings("deprecation")
 	@Test
 	//it is telling the method is a test case
 	//n! = (n-m)! * (m+1) * (m+2) *... n
