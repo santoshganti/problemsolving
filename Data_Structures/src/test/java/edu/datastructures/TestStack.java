@@ -1,6 +1,6 @@
 package edu.datastructures;
 
-import static junit.framework.Assert.*;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -9,20 +9,11 @@ public class TestStack {
 	@Test
 	public void testSimpleScenario() {
 		// Create new stack to hold 10 elements
-		Stack stack = new StackImpl(10);
+		Stack stack = new Stackimpl(10);
 
 		// Push elements into stack
 		/*
-		 * 9
-		 * 8
-		 * 7
-		 * 6
-		 * 5
-		 * 4
-		 * 3
-		 * 2
-		 * 1
-		 * 0
+		 * 9 8 7 6 5 4 3 2 1 0
 		 */
 		for (int i = 0; i < 10; i++) {
 			stack.push(new Integer(i));

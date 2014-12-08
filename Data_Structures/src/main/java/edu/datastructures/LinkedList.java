@@ -1,7 +1,7 @@
 package edu.datastructures;
 
 /**
- * We are writing an interface for Linked Lis Data Structure. Linked List Data
+ * We are writing an interface for Linked List Data Structure. Linked List Data
  * Structure has many implementations but this is doubly linked list.
  * 
  * @author santoshganti

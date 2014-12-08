@@ -1,7 +1,8 @@
 package edu.datastructures;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
-import static junit.framework.Assert.*;
 
 public class TestLinkedList {
 	@Test

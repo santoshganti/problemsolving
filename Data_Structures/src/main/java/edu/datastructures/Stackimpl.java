@@ -1,6 +1,6 @@
 package edu.datastructures;
 
-public class StackImpl implements Stack{
+public class Stackimpl implements Stack{
 	/**
 	 * Underlying array to hold stack items.
 	 */
@@ -11,7 +11,7 @@ public class StackImpl implements Stack{
 	 */
 	private int top;
 
-	public StackImpl(int size) {
+	public Stackimpl(int size) {
 		stack = new Object[size];
 		top = -1;
 	}
