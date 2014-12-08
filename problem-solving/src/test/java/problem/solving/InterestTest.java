@@ -5,12 +5,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class InterestTest {
-	@SuppressWarnings("deprecation")
-	@Test
+
 	public void testSimpleInterest() {
 		Interest value = createInterest();
 		value.simpleInterest();
-		assertEquals(5.0,value.getInterest());
+		assertEquals(5.0, value.getInterest(), 0.001);
 	}
 
 	private Interest createInterest() {
@@ -25,14 +24,14 @@ public class InterestTest {
 	public void testCompoundInterest() {
 		Interest value = createInterest();
 		value.compoundInterest(CompoundInterval.HALF_YEARLY);
-		assertEquals(5.06, value.getInterest(),0.01);
+		assertEquals(5.06, value.getInterest(), 0.01);
 	}
 
 	@Test
 	public void testContinousCompoundInterest() {
 		Interest value = createInterest();
 		value.continousCompoundInterest();
-		assertEquals(105.13, value.getInterest(),0.01);
-		
+		assertEquals(105.13, value.getInterest(), 0.01);
+
 	}
 }
